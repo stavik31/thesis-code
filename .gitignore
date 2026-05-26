@@ -14,3 +14,23 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Large data/model files
+*.npy
+*.bin
+*.safetensors
+narratives_raw.jsonl
+narratives_raw.jsonl.zip
+output.jsonl
+output.jsonl.zip
+clean_data.zip
+clean_data/
+unsloth_compiled_cache/
+llm/train.jsonl
+llm/val.jsonl
+llm/test.jsonl
+llm/lora_adapter/
+llm/output/
+rag/embeddings.npy
+rag/faiss_index.bin
+rag/metadata.jsonl
